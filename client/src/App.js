@@ -69,6 +69,7 @@ export default function App() {
                      className="form-control"
                      value={name}
                      onChange={(e) => setName(e.target.value)}
+                     required
                   />
                </div>
                <div className="form-group">
@@ -80,6 +81,7 @@ export default function App() {
                      className="form-control"
                      value={dob}
                      onChange={(e) => setDOB(e.target.value)}
+                     required
                   />
                </div>
                <button type="submit" className="btn btn-primary form-control">
